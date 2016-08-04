@@ -6,5 +6,10 @@ and then you can add
 
 "com.turdwaffle" %% "redislib" % "1.0"
 
+(insert correct version)
+
 as a dependency in your (local sbt) projects build.sbt file and start 
 hget-ing!.
+
+Also, since it's set up via Guice, you can enable it in a Play! app,
+and inject it right into your Controllers/etc...
